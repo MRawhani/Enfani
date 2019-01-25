@@ -1,0 +1,1807 @@
+html,
+body {
+    height: 100%;
+
+
+}
+
+body {
+    color: #212226 !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    font-family: Cairo;
+
+}
+
+strong {
+    font-family: Cairo;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Cairo !important;
+}
+
+
+p {
+    font-family: droid arabic kufi,Tahoma !important;
+    font-size: 13px !important;
+    
+    line-height: 25px;
+}
+
+section {
+    background: white;
+    overflow: hidden;
+}
+
+/* 
+========================================== 
+PRe order
+========================================== 
+*/
+#preloader {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    /* thsi  for making the elemnt above all the elements*/
+}
+
+#status {
+    background-image: url(../img/prel.gif);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+
+/*======================================
+!------- Start styling the nav par-------->
+===========================================*/
+.top-header {
+    width: 100%;
+    float: right;
+    direction: ltr;
+    background: #fff;
+    z-index: 4;
+}
+.top-header ul{
+   
+    list-style: none;
+}
+.top-header ul li{
+   
+  display: inline-block;
+    margin: 0 5px;
+     margin-top: 5px;
+}
+.top-header .call-us ul li a{
+   color: #f4c613;
+    font-weight: bold;
+   
+}
+.top-header ul.social-list {
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.top-header ul.social-list li a {
+    border: 1px solid #fff;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+/* important is for allowing the atyles to over come the priviliges form the booastrap classes
+navbar is the class of the whole nav*/
+
+/* 
+========================================== 
+ Nav bar
+========================================== 
+*/
+
+.navbar {
+    /*margin-top: 20px;*/
+    padding: 35px 0px 20px 0px;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.site-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-brand {
+    padding: 13px 15px;
+}
+
+ul.navbar-nav > li > a {
+
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: bold;
+    
+
+
+}
+
+ul.navbar-nav > li > a:hover {
+    background: none !important;
+    color: #f4c613 !important;
+}
+
+ul.navbar-nav > li > a:focus {
+    background: none !important;
+}
+
+.location {
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+
+/* White Navigation */
+
+.white-nav-top {
+    margin-top: 0;
+    border: none ;
+    background: #fff;
+    padding: 10px 0;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+    z-index: 2;
+}
+
+.white-nav-top ul.navbar-nav > li > a {
+    color: #212226 !important;
+}
+
+.white-nav-top ul.navbar-nav > li > a:hover {
+    color: #f4c613 !important;
+}
+
+/* Scroll spy active state caused by the spy in the body attributes */
+
+.white-nav-top ul.navbar-nav > li.active > a {
+    color: #f4c613 !important;
+    font-weight: 500;
+}
+
+.white-nav-top .location {
+    border: 1px solid #212226;
+    border-radius: 20px;
+}
+
+
+
+
+/*===================================================*/
+/*!------- Ends styling the nav par-------->*/
+/*=====================================================*/
+
+
+
+/*===================================================*/
+/*!-------Slider starts -------->*/
+/*=====================================================*/
+.slider {
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-image: url(..//img/slider.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    /* this is for whiting all the elements in the slider like the icons*/
+}
+
+.slider-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    /* Try it without a , then there will be no opacity*/
+    position: relative;
+}
+
+.slider-content {
+    position: absolute;
+    top: 39%;
+    /*احد الطرق لتنصيف النصوص: فس طرق اخرى في الموقع الثاني*/
+    width: 100%;
+    /*event if we don't set it manuly*/
+
+
+}
+
+.icons .fa {
+    font-size: 25px;
+    margin-right: 7px;
+}
+
+.cta-div {
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+
+.btn1 {
+    padding: 5px 15px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+
+
+
+.btn1:hover {
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+
+}
+
+.btn2 {
+    padding: 5px 20px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+     font-weight: bold;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    /*if we put in the hover then when we take the pointer it will disapeare fast*/
+    margin-right: -7px;
+}
+
+.btn2:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #f4c613;
+    border-color: #f4c613;
+
+}
+
+/* 
+Arrow down
+*/
+
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: white;
+
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+    margin-left: -16px;
+    font-size: 32px;
+    text-align: center;
+   /* animation: MoveUpDown 1s linear infinite;
+    -webkit-animation: MoveUpDown 1s linear infinite;
+    
+    -mox-animation: MoveUpDown 1s linear infinite;*/
+    /*moaila*/
+
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        bottom: 40px;
+    }
+
+    50% {
+        bottom: 20px;
+    }
+}
+
+#arrow-down:hover,
+#arrow-down:focus {
+    text-decoration: none;
+    color: #f4c613;
+    background-color: transparent;
+
+}
+
+/* 
+Animation text
+*/
+.slider .text,
+.slider .typed-cursor {
+    display: inline;
+    font-size: 20px;
+}
+
+.primary {
+    color: #f4c613;
+}
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink 0.7s infinite;
+    -webkit-animation: blink 0.7s infinite;
+    /*for google chroom and safari*/
+    -mox-animation: blink 0.7s infinite;
+    /*moaila*/
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+
+
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+
+}
+
+
+
+
+
+
+/*===================================================*/
+/*!-------Slider Ends -------->*/
+/*=====================================================*/
+
+
+
+/* =========================================
+                Buttons
+============================================ */
+
+.btn-general {
+    font-family: Cairo !important;
+    border-radius: 28px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin: 0 6px;
+    padding: 12px 26px 12px 26px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-yellow {
+    color: #fff;
+    border: 1px solid #f4c613 !important;
+    background-color: #f4c613;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #fff !important;
+    background-color: #212226;
+    border: 1px solid #212226 !important;
+}
+
+
+.btn-white {
+    color: #212226;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+
+
+.btn-back-to-top {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    padding: 3px 15px !important;
+    border-radius: 4px !important;
+    font-size: 22px !important;
+    display: none;
+}
+
+
+/* 
+========================================== 
+Content Boxes : this will be repeated many times
+========================================== 
+*/
+
+.content-box-lg {
+    padding: 120px 0px;
+}
+
+.content-box-md {
+    padding: 80px 0px;
+}
+.content-box-sm {
+    padding: 50px 0px;
+}
+
+.verticl-heading {
+    padding-bottom: 40px;
+    margin-top: 0px;
+    margin-right: 65px;
+
+}
+
+.verticl-heading img {
+    width: 150px;
+}
+
+.verticl-heading h5 {
+    color: #f4c613 !important;
+    font-size: 28px;
+    font-weight: 400;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    -mox-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: relative;
+    top: 77px;
+    right: -100px;
+}
+
+.verticl-heading h2 {
+    margin: 0 0 0 35px;
+    
+}
+
+.verticl-heading h2 strong {
+    color: #212226 ;
+}
+
+.verticl-heading h2,
+.horizontal-heading h2 {
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 55px
+}
+.verticl-heading h2 strong,
+.horizontal-heading h2 strong {
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+.horizontal-heading {
+    margin-bottom: 80px;
+}
+
+.horizontal-heading h5 {
+    font-size: 16px;
+    color: #f4c613;
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+
+.horizontal-heading h2 {
+
+    margin: 0;
+}
+
+
+/* 
+========================================== 
+About Section Starts
+========================================== 
+*/
+/* 
+========================================== 
+About Section Part 1 Satrt
+========================================== 
+*/
+
+.verticl-heading h2 span {
+    color: #f4c613 !important;
+}
+
+#about-left {
+    padding-top: 40px;
+}
+#about-left  .verticl-heading h2 {
+    margin-right: 10px;
+}
+
+#about-right p:first-child {
+    margin-bottom: 34px;
+
+    padding-top: 40px
+}
+
+#about-bottom {
+    margin-top: 60px;
+}
+
+#about-bottom img {
+    margin: 0 auto;
+    /*this makes sure that the element will always stay at the middle*/
+}
+
+/* 
+========================================== 
+About Section Part 1 Satrt
+========================================== 
+*/
+
+/* 
+========================================== 
+About Section Part 2Satrt
+========================================== 
+*/
+
+#about-02 {
+    background-color: #f4f4f4;
+    
+
+}
+
+.about-item {
+    background-color: #fff;
+
+    padding: 80px 50px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -mox-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 400ms ease-in-out;
+    -mox-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    
+}
+
+.about-item i {
+    font-size: 42px;
+    margin: 0px;
+}
+
+.about-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-item hr {
+    width: 45px;
+    height: 3px;
+    background-color: #f4c613;
+    margin: 0px auto;
+    border: none;
+}
+
+.about-item p {
+    font-size: 24px;
+    margin-top: 50px;
+
+}
+
+/*Hover*/
+.about-item:hover {
+    background-color: #f4c613;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+
+.about-item:hover hr {
+    background-color: #fff;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p,
+.about-item:hover hr {
+    transform: translateY(-20px);
+    /*this is for making icons change positions when hovering*/
+}
+
+.about-item,
+.about-item i,
+.about-item hr {
+
+    -webkit-transition: all 400ms ease-in-out;
+    -mox-transition: all 400ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.about-item h3,
+.about-item p {
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+
+/* 
+========================================== 
+About Section Part 2 Ends
+========================================== 
+*/
+
+
+
+/* 
+========================================== 
+About Section Ends
+========================================== 
+*/
+
+
+/* 
+========================================== 
+AServices
+========================================== 
+*/
+/* 
+========================================== 
+AServices 01
+========================================== 
+*/
+#services-01 .small-service-img{
+    width:42px; 
+    height:42px; 
+    
+}
+#services-01 img {
+    margin: 100px 0;
+}
+#services-01 .horizontal-heading img {
+    margin: 0px 0;
+}
+
+.service {
+    margin: 35px 0;
+
+}
+
+
+
+.service .icon {
+    font-size: 35px;
+    margin: 0;
+    -webkit-transition: all 400ms linear;
+    -mox-transition: all 400ms linear;
+    transition: all 400ms linear;
+
+}
+
+.service:hover {
+    cursor: move;
+}
+
+.service:hover .icon {
+    color: #f4c613;
+    cursor: copy;
+    -webkit-transform: translateX(20px);
+    -mox-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.service h5 {
+    font-size: 13px;
+    color: #f4c613;
+    margin: 0 0 6px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.service:hover h5 {
+    color: #212226;
+
+}
+
+.service h4 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.service p {
+    line-height: normal;
+}
+
+/* 
+========================================== 
+AServices 02
+========================================== 
+*/
+#service-02 {
+    background-color: #f4f4f4;
+}
+
+#services-tabs ul {
+    margin-bottom: 40px;
+
+}
+
+
+#services-tabs ul li {
+    padding: 20px 10px;
+}
+
+/*ul out*/
+.press {
+    display: block;
+    /* Remove bullet points; allow greater control of positioning */
+
+    width: 100%;
+    /* Get the row full width */
+}
+
+.press li {
+    display: inline-block;
+    /* Get all images to show in a row */
+    width: 20%;
+    /* Show 4 logos per row */
+    /* Centre align the images */
+}
+
+
+#services-tabs ul li a {
+    font-size: 15px;
+    color: #212226;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: none;
+}
+
+#services-tabs ul li.r-tabs-state-active a {
+    color: #f4c613;
+    font-weight: 700;
+    border-bottom: 3px solid #f4c613;
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear ;
+        -mox-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+}
+
+/*content of tabs*/
+.service-tab img {
+    width: 100%;
+    margin: 0 auto;
+    min-height:  550px;
+}
+
+.service-tab .col-md-6 {
+    padding: 0;
+}
+
+.service-tab .tab-bg {
+    background: #fff !important;
+    padding: 59px 30px;
+    min-height:  550px;
+    overflow: hidden;
+}
+
+.service-tab h2 {
+    font-size: 40px;
+    color: #bbb;
+    margin-bottom: 20px;
+    font-weight: 100;
+
+}
+
+.service-tab h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.service-tab p {
+
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+/*inner ul services*/
+.service-tab .has-ul p {
+
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.inner-service .icon {
+    font-size: 35px;
+    margin: 0;
+    -webkit-transition: all 400ms linear;
+    -mox-transition: all 400ms linear;
+    transition: all 400ms linear;
+
+}
+
+.inner-service:hover {
+    cursor: move;
+}
+
+.inner-service:hover .icon {
+    color: #f4c613;
+    cursor: copy;
+    -webkit-transform: translateX(20px);
+    -mox-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.inner-service h4 {
+    font-size: 15px;
+
+}
+
+.press2 {
+    display: block;
+    /* Remove bullet points; allow greater control of positioning */
+
+    width: 100%;
+    /* Get the row full width */
+    margin-bottom: 0px;
+}
+
+.press2 li {
+    display: inline-block;
+    /* Get all images to show in a row */
+    width: 22%;
+    /* Show 4 logos per row */
+    /* Centre align the images */
+}
+
+/* 
+========================================== 
+services Ends
+========================================== 
+*/
+
+/* 
+========================================== 
+Portoflio
+========================================== 
+*/
+#portfolio {
+    
+}
+
+#portfolio .verticl-heading {
+    margin-bottom: 50px;
+}
+#portfolio .verticl-heading h2 {
+    margin-right: 10px;
+}
+
+.row.no-gutters [class*=col-] {
+    padding: 0;
+}
+
+.portfolio-item {
+    overflow: hidden;
+    position: relative;
+}
+
+#isotope-filters {
+    margin-bottom: 10px;
+    padding: 20px 25px 20px 0;
+}
+
+#isotope-filters button {
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 700;
+
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-right: 35px;
+    outline: 0;
+}
+
+
+#isotope-filters button span {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 15px;
+    -webkit-transition: border-color .4s ease-in-out;
+    transition: border-color .4s ease-in-out;
+}
+
+#isotope-filters button.active span {
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
+}
+
+/* Zoom Effect */
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease,
+        -webkit-transform .5s ease;
+}
+
+.portfolio-item:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+/* Overlay Effect */
+
+.portfolio-item-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(14, 14, 17, 0.9);
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+/* Item Details Effect */
+
+.portfolio-item-details {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /*with top it can center an element*/
+}
+
+.portfolio-item-details h3 {
+    color: #f4c613;
+
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.portfolio-item-details span {
+    display: inline-block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 6px;
+    width: 30px;
+    margin: 12px auto 5px auto;
+}
+
+.portfolio-item-details p {
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+
+/* Show Overlay on mouse over */
+
+.portfolio-item:hover .portfolio-item-details h3 {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-item-details p {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-item-overlay {
+    opacity: 1;
+}
+
+
+
+/* =========================================
+                Testmonials starts
+============================================ */
+
+/* =========================================
+                Testimonials
+============================================ */
+#testimonials {
+    background: #f4f4f4;
+    padding-bottom: 45px;
+    overflow: visible;
+}
+
+
+#testimonials .verticl-heading {
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+
+#testimonials .verticl-heading h2{
+   margin-right: 10px;
+}
+
+
+#testimonial-slider {
+    background: #f4c613;
+    top: -120px;
+}
+
+.testimonial .row {
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    padding: 20px 45px 0 45px;
+    color: #fff;
+}
+
+.testimonial h3 {
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.testimonial .stars {
+    font-size: 15px;
+    margin: 20px 0 0 10px;
+}
+
+.testimonial p {
+    line-height: normal !important;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.author .author-name-des {
+    width: 106px;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.author .author-name-des p {
+    margin: 0;
+}
+
+/* =========================================
+                Slider Buttons
+============================================ */
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #212226;
+    font-size: 30px;
+    background: none;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #212226;
+}
+
+/* =========================================
+                Testmonials Ends
+============================================ */
+
+
+
+/* =========================================
+        Pricing Starts
+============================================ */
+
+.pricing-table {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 32px 21px;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.pricing-table .price img {
+    height: 70px;
+    margin: 0 0 0 24px;
+}
+
+.pricing-table:hover {
+    background: #f4c613;
+}
+
+.pricing-table .type h4 {
+    color: #f4c613;
+    font-size: 24px;
+    margin-bottom: 25px;
+
+}
+
+.pricing-table .price {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 24px 0;
+}
+
+
+.pricing-table .price p {
+    line-height: normal !important;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-table ul.package {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.pricing-table ul.package li {
+    font-family: droid arabic kufi;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.pricing-table ul.package li i {
+    width: 24px;
+}
+
+.pricing-table .btn-yellow,
+.pricing-table.black .btn-white {
+    width: 96%;
+}
+
+.pricing-table:hover h4,
+.pricing-table:hover h2,
+.pricing-table:hover p,
+.pricing-table:hover ul.package {
+    color: #fff;
+}
+
+.pricing-table:hover .btn-yellow {
+    background: #fff;
+    color: #212226;
+    border: 1px solid #fff;
+}
+
+.pricing-table .btn-yellow:hover,
+.pricing-table .btn-yellow:focus {
+    background: #212226;
+    color: #fff;
+    border: 1px solid #212226;
+}
+
+
+
+/* Black Pricing Table */
+
+.pricing-table.black {
+    background: #212226;
+    color: #fff;
+}
+
+.pricing-table.black .type h4 {
+    color: #fff;
+}
+
+.pricing-table.black:hover {
+    background: #f4c613;
+}
+
+
+/* 
+========================================== 
+\\\\\  Stats Starts
+========================================== 
+*/
+
+#stats {
+    background: url("../img/stats/stats-bg.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+#stats .content-box-md {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+#stats .verticl-heading {
+   margin-bottom: 50px;
+    
+}
+#stats .verticl-heading h2{
+  color: beige !important;
+   
+    
+}
+#stats .verticl-heading h2 strong{
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.stats-item{
+    background: rgba(61,68,68,0.6);
+    border-radius: 4px;
+    min-height: 170px;
+    padding: 25px 50px;
+    -webkit-transition: all 400ms linear;
+    -mox-transition: all 400ms linear;
+    transition: all 400ms linear;
+   
+}
+
+.stats-item i{
+    font-size: 42px;
+    color: #f4c613;
+    margin: 0 0 6px 0;
+    -webkit-transition: all 400ms linear;
+    -mox-transition: all 400ms linear;
+    transition: all 400ms linear;
+   
+}
+
+.stats-item h3{
+    font-size: 32px;
+    color: #fff;
+    margin: 5px 0 5px 0;
+}
+
+
+.stats-item p{
+    
+    color: #fff;
+    margin: 0;
+}
+.stats-item:hover{
+    background: #f4c613;
+}
+
+.stats-item:hover i{
+    color: #212226;
+    -webkit-transform: translateY(-20px); 
+    -mox-transform: translateY(-20px); 
+    transform: translateY(-20px);
+}
+
+
+/* 
+========================================== 
+\\\\\  Stats Ends
+========================================== 
+*/
+
+/* 
+========================================== 
+\\\\\  Clients Start
+========================================== 
+*/
+#clients{
+    padding-bottom: 160px;
+}
+#clients .horizontal-heading{
+    margin-bottom: 30px;
+}
+
+#clients-list{
+    padding: 45px 0 0 0;
+}
+
+.client {
+    padding: 0 10px;
+    max-width: 150px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.client img{
+    display: inline-block !important;
+}
+/* 
+========================================== 
+\\\\\  Clients Ends
+========================================== 
+*/
+
+
+/* 
+========================================== 
+\\\\\  FAQs Start
+========================================== 
+*/
+#accordian{
+    margin-bottom: 50px;
+}
+#accordian .panel{
+    -webkit-box-shadow: none;
+    box-shadow:none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#accordian .panel-heading{
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+#accordian .panel-title a{
+    display: block;
+    padding: 25px 35px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    background: #212226;
+    border: none;
+    position: relative;
+    -webkit-transition: all 0.3s ease; 
+    transition: all 0.3s ease; 
+}
+#accordian .panel-title a:after,
+#accordian .panel-title a.collapsed:after{
+     font-family:  Font Awesome\ 5 Free;
+    content: "\f068";
+   
+   
+    font-weight: bold;
+      width: 40px;
+    height: 40px;
+    line-height: 29px;
+    border-radius: 50%;
+    background: #212226;
+    text-align: center;
+    font-size:  15px;
+    color: #fff;
+    border: 5px solid white;
+    position: absolute;
+    /*put it at the right side; note that we set the parent relative*/
+    top: 10px;
+   right: -20px;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+   
+}
+
+
+#accordian .panel-title a.collapsed:after
+{
+    content: "\f067";
+}
+
+#accordian .panel-title a:hover:after,
+#accordian .panel-title a.collapsed:hover:after 
+{
+    transform: rotate(360deg);
+}
+
+
+#accordian .panel-body
+{
+    padding: 15px 25px;
+   
+    font-size: 14px;
+    color: #212226;
+    line-height: 25px;
+    border-top: none;
+    position: relative;
+       
+    
+}
+
+.panel-heading a
+{
+    text-decoration: none !important;
+    font-size: 15px !important;
+    font-weight: normal;
+}
+
+
+.freeimage img
+{
+    margin-top: -25px;
+}
+
+/* 
+========================================== 
+\\\\\  FAQs End
+========================================== 
+*/
+
+/* =========================================
+                Social Icons
+============================================ */
+
+ul.social-list {
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-list li a {
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+ul.social-list li:nth-child(1) a {
+    background: #00E676;
+    border-color: transparent;
+}
+
+ul.social-list li:nth-child(2) a {
+    background: #3b5998;
+    border-color: transparent;
+}
+
+ul.social-list li:nth-child(3) a {
+    background: #D54B3D;
+    border-color: transparent;
+}
+ul.social-list li:nth-child(4) a {
+    background: #00aced;
+  
+    border-color: transparent;
+}
+ul.social-list li:nth-child(5) a {
+    background: #C5302C;
+  
+    border-color: transparent;
+    
+}
+
+ul.social-list li:nth-child(1) a:hover {
+    background: #fff;
+      color: #00E676;
+    border-color: #00E676 !important;
+    font-weight: bold;
+}
+
+ul.social-list li:nth-child(2) a:hover {
+   background: #fff;
+      color: #3b5998;
+    border-color: #3b5998 !important;
+    font-weight: bold;
+}
+
+ul.social-list li:nth-child(3) a:hover {
+     background: #fff;
+      color: #D54B3D;
+    border-color: #D54B3D !important;
+    font-weight: bold;
+}
+ul.social-list li:nth-child(4)  a:hover {
+    background: #fff;
+      color: #00aced;
+    border-color: #00aced !important;
+    font-weight: bold;
+}
+ul.social-list li:nth-child(5)  a:hover {
+    background: #fff;
+      color: #C5302C;
+    border-color: #C5302C !important;
+    font-weight: bold;
+}
+
+
+
+/* =========================================
+                Contact
+============================================ */
+
+
+/* Contact Left */
+
+#contact-right p {
+    margin: 20px 0 20px 0;
+}
+
+ul.office-details {
+    list-style: none;
+    padding: 0;
+}
+
+ul.office-details li {
+    font-family: droid arabic kufi;
+    margin-top: 12px;
+    margin-left: 15px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+ul.office-details li i {
+    font-size: 20px;
+    width: 30px;
+}
+
+#contact-right ul.social-list li a {
+   
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+
+/* Contact Left */
+
+#contact-left {
+    padding: 25px 30px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+#contact-left h4 {
+    font-size: 24px;
+}
+
+#contact-left p {
+    margin-bottom: 25px;
+}
+
+#contact-left form .form-control {
+    font-family: Cairo;
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+#contact-left form textarea.form-control {
+    min-height: 164px;
+}
+
+/* 
+========================================== 
+        Contact Ends 
+========================================== 
+*/
+/* 
+========================================== 
+Map
+========================================== 
+*/
+#map{
+    margin: 20px;
+}
+
+/* 
+========================================== 
+   Footer
+========================================== 
+*/
+#footer{
+    background: url(..//img/Black-Wood-Footer-Background.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+.social-icon a
+{
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+    
+}
+
+
+#footer .fab,
+#footer .fas
+{
+    font-size: 30px;
+    color: #212226;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #f4c613;
+    line-height: 2;
+    border: 10px solid #fff;
+    text-align: center;
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    
+}
+
+.social-icon a:hover .fab,.social-icon a:hover .fas
+{
+    
+    border: 10px solid #f4c613 !important;
+    transform: rotate(360deg);
+  
+}
+
+.bordernow
+{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+/* 
+========================================== 
+            Footer Ends
+========================================== 
+*/
+/* 
+========================================== 
+        Animation
+========================================== 
+*/
+
+.slider .text,.slider .cta-div,.slider .social-list,#arrow-down i,.slider .icons{
+     -webkit-animation-duration: 1.5s;
+     animation-duration: 1.5s;
+}
+
+.slider .icons{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.slider .text{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.slider .cta-div{
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.slider .btn1{
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.slider .social-list{
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+#arrow-down i{
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

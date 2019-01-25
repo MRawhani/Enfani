@@ -1,0 +1,572 @@
+/* changing the style of the responsiv button Ends
+ */
+/*===========================================================*/
+.navbar-header {
+    position: relative;
+    /* alows child to be centerd in with the abslute value*/
+}
+
+#mobile-nav-open-btn {
+    font-size: 30px;
+    color: #f4c613 !important;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    /* will amke only next to the logo */
+    left: 17px;
+    top: 15px;
+    /*hiding */
+    display: none;
+    padding: 9px 1px;
+}
+
+.white-nav-top #mobile-nav-open-btn {
+    position: absolute;
+    /* will amke only next to the logo */
+    left: 13px;
+    top: 6px;
+    padding: 0;
+
+
+}
+
+#mobile-nav {
+    /*by default hidden*/
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-transition: all 300ms linear;
+    -mox-transition: all 300ms linear;
+    transition: all 300ms linear;
+    overflow: hidden;
+
+}
+
+#mobile-nav-close-btn {
+    /* it is not in the header like the open btn */
+    font-family: Cairo;
+    font-size: 60px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #212226;
+    position: absolute;
+    left: 13px;
+    top: -2px;
+
+    -webkit-transition: 0.3s;
+    -mox-transition: 0.3s;
+    transition: 0.3s
+}
+
+#mobile-nav-content {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    top: 10%;
+
+}
+
+#mobile-nav ul li {
+    margin-bottom: 25px;
+}
+
+#mobile-nav a {
+    font-size: 16px;
+    color: #212226;
+    font-weight: 400;
+    display: inline;
+
+    -webkit-transition: 0.3s;
+    -mox-transition: 0.3s;
+    transition: 0.3s
+}
+
+#mobile-nav a:hover,
+#mobile-nav-close-btn:hover {
+    color: #f4c613;
+    background: none !important;
+}
+
+#mobile-nav a:focus {
+    background: none !important;
+}
+
+/*spy*/
+.white-nav-top #mobile-nav ul.nav > li.active > a {
+    color: #f4c613 !important;
+    font-weight: 500;
+}
+
+
+/* 
+========================================== 
+        media Queries
+========================================== 
+*/
+
+
+
+/* Large Devices (Desktops & Laptops) */
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0 20px !important;
+    }
+}
+
+/* medium Devices (Landskap & medum laptops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0;
+
+
+    }
+
+    /* Generic */
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+
+    /* Services 02 */
+    #services-tabs .tab-bg {
+        padding: 16px 30px;
+
+    }
+
+    #footer .fab,
+    #footer .fas {
+        font-size: 25px;
+
+        width: 65px;
+        height: 70px;
+
+        line-height: 2.3;
+        border: 8px solid #fff;
+    }
+
+    #services-01 img {
+        margin: 150px 0;
+    }
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*.navbar > .container-fluid .navbar-brand {
+        margin-left:-10px !important;
+    }
+    
+    .site-nav-wrapper {
+        padding: 0 !important;
+        
+    }
+     
+    .container>.navbar-collapse{
+         padding: 0 !important;
+        margin-left: -10px !important;
+        
+    }*/
+    .container > .navbar-collapse {
+        display: none !important;
+    }
+
+    .navbar {
+        padding: 20px 0px !important;
+    }
+
+    .site-nav-wrapper,
+    .white-nav-top {
+        padding: 0px !important;
+    }
+
+    #mobile-nav-open-btn {
+        /*visible the menu for small devices*/
+        display: block;
+    }
+
+
+    /* Generic */
+    .btn-general {
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+        color: #fff !important;
+    }
+    .btn-white{
+        color: #212226 !important
+    }
+
+    /* Generic */
+    .verticl-heading h2 {
+        font-size: 29px !important;
+    }
+    
+    /*image service*/
+    #services-01 img {
+        margin: 200px 0;
+
+    }
+    .service .icon .fa{
+       font-size: 30px
+    }
+    /*services tabs*/
+    .r-tabs-accordion-title{
+        text-align: center;
+        margin-bottom: 15px;
+        padding: 0 10px ;
+    }
+    .r-tabs-accordion-title a{
+         font-size: 20px;
+    color: #212226;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: none;
+        
+    }
+    /*active tabs*/
+    .r-tabs-state-active a {
+    color: #f4c613;
+    font-weight: 700;
+    border-bottom: 3px solid #f4c613;
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear;
+    -mox-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+    }
+    
+    /*Testimonials*/
+    #testimonials .verticl-heading h5{
+        
+        font-size: 22px !important;
+    }
+    #testimonials .verticl-heading h2{
+       
+        font-size: 30px !important;
+        margin-left: 0;
+       
+    }
+    #testimonials .verticl-heading h2 strong{
+       font-size: 30px
+    }
+    
+    /*stats*/
+    #stats .col-sm-6{
+        margin-bottom: 10px;
+    }
+    /*prices*/
+    .pricing-table .price p{
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }  
+}
+
+@media (max-width: 767px) {
+
+    /* 
+NAvigation
+*/
+    .navbar {
+        padding: 20px 0px !important;
+    }
+    .site-nav-wrapper,
+    .white-nav-top {
+        padding: 0px !important;
+    }
+    #mobile-nav-open-btn {
+        /*visible the menu for small devices*/
+        display: inline;
+    }
+    /*buttons*/
+    .btn1,.btn2{
+        font-size: 13px;
+    }
+     .btn-general {
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+        color: #fff !important;
+    }
+    .btn-white {
+        color: #212226 !important
+    }
+
+    /*About-01*/
+    .content-box-lg {
+    padding: 80px 0px;
+    }   
+    /*Verticl-heading*/
+    .verticl-heading{
+        text-align: center;
+    }
+    .verticl-heading h5{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        display: block;
+        position: static;
+        margin-bottom: 15px;
+    }
+     .verticl-heading h2{
+       font-size: 29px;
+         line-height: normal;
+         margin: 0 !important;
+    }
+    #about-left .verticl-heading, #portfolio .verticl-heading, #contact .verticl-heading,#stats .verticl-heading,#testimonials .verticl-heading{
+       margin: 0;
+    }
+   
+    #about-right{
+        text-align: center;
+    }
+    
+    /*About-02*/
+    .about-item{
+        padding: 55px;
+        margin-bottom: 35px;
+    }
+    .about-item i{
+        font-size: 30px;
+    }
+    .about-item h3{
+        font-size: 20px;
+    }
+    
+    /*services-01*/
+    /*horizontal-heading*/
+    .horizontal-heading{
+        margin-bottom: 40px;
+    }
+    .horizontal-heading h2{
+        font-size: 30px;
+    }
+    #services-tabs img {
+        min-height: 300px;
+
+    } 
+    #services-01 img{
+        margin: 35px 0;
+    }
+    .service{
+        text-align: center;
+    }
+    
+    .service h4{
+      font-size: 20px;
+    }
+    
+    /*services-02*/
+    #services-tabs .tab-bg {
+        min-height: 300px;
+        text-align: center;
+        padding: 40px 30px;
+    }
+    #services-tabs .tab-bg h3{
+          font-size: 25px;
+    }
+     /*services tabs*/
+    .r-tabs-accordion-title{
+        text-align: center;
+        margin-bottom: 15px;
+        padding: 0 10px ;
+    }
+    .r-tabs-accordion-title a{
+         font-size: 20px;
+    color: #212226;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: none;
+        
+    }
+    /*active tabs*/
+    .r-tabs-state-active a {
+    color: #f4c613;
+    font-weight: 700;
+    border-bottom: 3px solid #f4c613;
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear;
+        -mox-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+    }
+    
+    /*portsolio*/
+    #isotope-filters button{
+        padding-right: 15px;
+    }
+    /*clients*/
+    #clients{
+        padding-bottom: 0;
+    }
+    .testimonial .row{
+        margin: 0;
+    }
+    /*testimonial*/
+    #testimonial-slider{
+        top: 0;
+    }
+    .testimonial h3{
+        font-size: 20px;
+    }
+     .testimonial .stars{
+        font-size: 16px;
+         
+    }
+    .author img{
+        width: 80px !important;
+        
+    }
+    
+     /*stats*/
+  
+    .stats-item{
+        margin-bottom: 20px;
+        padding: 25px 5px !important;
+    }
+    .stats-item i{
+        font-size: 30px;
+    }
+    .stats-item h3{
+        font-size: 24px;
+    }
+    /*pricing*/
+    .pricing-table{
+        margin-bottom: 30px;
+    }
+    /*contact*/
+    #contact-right{
+        text-align: center;
+    }
+    .office{
+        margin-bottom: 40px;
+        border-bottom: 2px solid #212226;
+    }
+
+    ul.office-details li{
+        display: block;
+        margin-top: 25px;
+        
+        
+    }
+    ul.office-details li i{
+        width: auto;
+        display: block;
+        margin-bottom: 3px;
+    }
+    ul.social-list{
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:430px)
+{
+    .slider .text,
+    .slider .typed-cursor {
+
+        font-size: 15px;
+    }
+
+
+    .btn1 {
+        padding: 5px 10px;
+       
+        font-size: 12px;
+       
+    }
+
+
+    .btn2 {
+        padding: 5px 15px;
+      
+        font-size: 12px;
+    }
+    
+    /* Generic */
+    .vertical-heading h2 {
+        font-size: 22px;
+    }
+    /* Portfolio */
+   
+    #isotope-filters button {
+        font-size: 10px ;
+        padding-right: 4px;
+    }
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .testimonial .stars {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:320px)
+{
+    .slider .text,
+    .slider .typed-cursor {
+
+        font-size: 10px;
+    }
+
+
+    .btn1 {
+        padding: 5px 5px;
+       
+        font-size: 8px;
+       
+    }
+ 
+
+    .btn2 {
+        padding: 5px 10px;
+      
+        font-size: 8px;
+    }
+    
+    ul.social-list li a {
+    border: 1px solid #fff;
+    width: 25px;
+    height: 25px;
+   
+    line-height: 25px;
+   
+        }
+    
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 11px;
+        line-height: 26px;
+    }
+    .testimonial .stars{
+        font-size: 1px !important;
+        font-weight: 100;
+    }
+
+}
+
+
+
+
+/* 
+========================================== 
+ .container>.navbar-collapse{
+        display: none !important;
+    } لاخفاء القائمة ف يالوقت اللي نشتيه ولاظهار الهمبرغر لازم يكون خارج الهيدر
+========================================== 
+*/
