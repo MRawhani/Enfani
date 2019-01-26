@@ -274,7 +274,3 @@ $(window).on('load',function(){
 
 
 
-
-
-
-

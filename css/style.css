@@ -16,12 +16,12 @@ body {
 }
 
 a {
-    font-family: Cairo;
+    font-family: 'Cairo', 'El Messiri';
 
 }
 
 strong {
-    font-family: Cairo;
+    font-family: 'Cairo', 'El Messiri';
 }
 
 h1,
@@ -30,13 +30,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Cairo !important;
+    font-family: 'Cairo', 'El Messiri'!important;
 }
 
 
 p {
-    font-family: droid arabic kufi,Tahoma !important;
-    font-size: 13px !important;
+    font-family: 'droid arabic kufi','Amiri' !important;
+    font-size: 13px ;
     
     line-height: 25px;
 }
@@ -552,7 +552,7 @@ Content Boxes : this will be repeated many times
     margin-bottom: 80px;
 }
 
-.horizontal-heading h5 {
+.horizontal-heading h5,.horizontal-footer h5 {
     font-size: 16px;
     color: #f4c613;
     display: inline-block;
@@ -653,7 +653,7 @@ About Section Part 2Satrt
 }
 
 .about-item p {
-    font-size: 24px;
+    font-size: 15px;
     margin-top: 50px;
 
 }
