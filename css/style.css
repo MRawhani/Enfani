@@ -474,7 +474,7 @@ Animation text
 .btn-back-to-top {
     position: fixed !important;
     bottom: 20px !important;
-    right: 20px !important;
+    left: 20px !important;
     padding: 3px 15px !important;
     border-radius: 4px !important;
     font-size: 22px !important;
