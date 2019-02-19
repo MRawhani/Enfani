@@ -160,7 +160,14 @@
 
 
 /* Small Devices (Portrait Tablets & Small Desktops) */
-
+@media (min-width: 768px){
+    .row-flex{
+        display: flex;
+    }
+    .col-flex{
+        display: flex;
+    }
+}
 @media (min-width: 768px) and (max-width: 991px) {
 
     /*.navbar > .container-fluid .navbar-brand {
